@@ -55,6 +55,10 @@ main{
 
 }
 
+#weather-card:hover{
+    box-shadow: 0 0 30px var(--primary-color);
+}
+
 #weather-card h1{
     font-size: 3rem;
     margin-bottom: 1.5rem;
@@ -120,6 +124,8 @@ main{
     cursor: pointer;
 
     transform: translateY(-3px);
+
+    box-shadow: 0 0 30px var(--primary-color);
 }
 
 /* weather-info */
